@@ -11,13 +11,14 @@ header{
     width: 100%;
     background-color: yellow;
     justify-content: space-between;
-    height: 70px;
+    height: 90px;
 
 }
 
 #logo{
 
-    margin-left: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
     align-items: center;
 }
 .href{
@@ -26,9 +27,17 @@ header{
     display: flex;
     align-items: center;
     margin-right: 30px;
+    margin-top: 20px;
     gap: 15px;
     
 }
+
+
+
+/* seccion 1
+*/
+
+
 
 #sect1{
 
@@ -52,7 +61,7 @@ header{
     flex-direction: column;
     margin-top:120px;
     margin-left: 100px;
-    font-size: 75px;
+    font-size: 65px;
     font-weight: bolder;
 }
 
@@ -65,6 +74,149 @@ header{
     width: 600px;
 }
 #boton-sect1{
+display: flex;
+height: 30px;
+margin-left: 850px;
+position: relative;
+bottom: 80px;
+
+}
 
 
+
+
+/* seccion 2 box
+*/
+
+#sect-2{
+
+    height: 1300px;
+    background-color: yellow;
+    margin-top: 250px;
+
+}
+
+#box{
+    display: flex;
+    background-color: rgb(172, 163, 163);
+    height: 450px;
+    width: 1400px;
+    margin-left: 200px;
+    position: relative;
+    bottom: 150px;
+}
+
+#texto-box{
+    height: auto;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#boton-box{
+
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#titulo-box{
+    height: auto;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 100px;
+    width: 200px;
+    position: relative;
+    top: 80px;
+
+}
+
+#fotos-box{
+    display: flex;
+    justify-content: space-evenly;
+margin-left: 250px;
+margin-top: 25px;
+width: 600px;
+gap: 120px;
+
+
+
+}
+#foto-box1{
+width: 250px;
+object-fit: contain;
+
+}
+#foto-box2{
+    width: 250px;
+object-fit: contain;
+    
+    }
+
+
+    /* seccion 2 
+*/
+
+#titulos-sect2{
+
+    display: flex;
+    font-weight: bolder;
+    font-size: 75px;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+
+#sect2-titulo1{
+
+    height: 1px;
+}
+#sect2-texto1{
+
+    width: 400px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+#sect2-1{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#fotos-sect2{
+
+    width: auto;
+}
+#sect2-foto1{
+
+    display: flex;
+    position: relative;
+    left: 650px;
+    bottom: 200px;
+}
+
+#boton-sect2{
+
+    display: flex;
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+}
+
+   /* seccion 3
+*/
+
+#sect3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+
+}
+
+#sect3-1{
+
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
 }
