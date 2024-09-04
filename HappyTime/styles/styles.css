@@ -35,6 +35,7 @@ header {
     margin-left: 100px;
     margin-top: 20px;
     align-items: center;
+    object-fit: contain;
 }
 
 .href {
@@ -1082,5 +1083,207 @@ iframe{
     iframe{
 
         width: 320px;
+    }
+
+
+}
+@media screen and (max-width: 352px) {
+
+    #logo{
+        width: 0px;
+       position: relative;
+       right: 100px;
+
+    }
+    
+    .href{
+
+        font-size: 10px;
+    }
+
+    #foto-sect1-1{
+
+        margin-left: 60px;
+    }
+    #text-sect1-1{
+
+        margin-left: 1px;
+    }
+    #text-sect1-2{
+
+     width: 200px;
+    }
+    #boton-sect1{
+
+        position: relative;
+        right:700px;
+        top: 50px;
+    }
+    #box{
+
+        width: 340px;
+        margin-left: 185px;
+        height: 600px;
+
+    }
+    #fotos-box{
+
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    #foto-box2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: 120px;
+        bottom: 90px;
+    }
+    #foto-box1{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: 120px;
+        
+    }
+    #sect2-texto1{
+
+        width: 300px;
+        margin-left: 40px;
+    }
+    #sect2-titulo1{
+
+        font-size: 30px;
+    }
+    #sect2-titulo2{
+
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    #sect2-foto1{
+
+        width: 250px;
+    
+    }
+
+    #imagen-sect3-1{
+
+        width: 350px;
+    }
+    #sect3-1{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        margin-left: 232px;
+        width: 350px;
+    }
+    #titulo-sect3{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    #texto-sect3{
+
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    #imagen-sect3-2{
+        margin-left: 1px;
+    }
+    #texto-sect4{
+        width: 320px;
+    }
+
+    #foto-sect5{
+        width: 250px;
+    }
+    #texto-sect5{
+
+        width: 250px;
+    }
+    #titulo-sect6-1{
+
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    #titulo-sect6-2{
+
+        font-size: 40px;
+       
+        margin-right: 100px;
+    }
+    #texto-sect6{
+        width: 200px;
+    }
+    #foto-sect6{
+
+        width: 0px;
+        height: 0px;
+    }
+
+
+
+
+    #sect7{
+
+        width: 200px;
+    }
+    .izquierdo-sect7{
+
+        width: 320px;
+        margin-top: 100px;
+    }
+    input{
+
+        width: 100px;
+    }
+
+    #email{
+        width: 260px;
+    }
+
+
+    #contra{
+
+        width: 260px;
+    }
+    textarea{
+        width: 260px;
+    }
+    #boxes-sect7{
+
+        width: 100px;;
+    }
+    #texto-box-sect7{
+
+        width: 100px;
+    }
+
+    #box-sect7{
+
+        width: 155px;
+    }
+    #texto-box-sect7{
+        margin-left: 70px;
+        width: 200px;
+        text-align: center;
+        
+    }
+   
+    #texto-sect7{
+
+        width: 200px;
+    }
+    #titulo-derecho-sect7-1{
+        font-size: 30px;
+    }
+    #titulo-derecho-sect7-2{
+        font-size: 30px;
+        margin-top: 20px;
+        position: relative;
+        top: 20px;
+    }
+    #texto-sect8{
+        width: 200px;
+
     }
 }
