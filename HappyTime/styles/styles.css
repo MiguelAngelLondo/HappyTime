@@ -893,3 +893,194 @@ iframe{
     width: 700px;
 }
 }
+
+@media screen and (max-width: 480px) {
+
+    #logo{
+        width: 20px;
+       position: relative;
+       right: 50px;
+    }
+    #sect1{
+
+            display: flex;
+            flex-direction: column;
+    }
+
+    #foto-sect1-1{
+
+        width: 300px;
+        position: relative;
+        right: 30px;
+    }
+    #text-sect1-1{
+
+        font-size: 40px;
+    }
+    #text-sect1-2{
+
+        width: 300px;
+        margin-top: 40px;
+    }
+    #boton-sect1{
+        position: relative;
+       right: 550px;
+    }
+    #box{
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+        height: 500px;
+    }
+    #sect2-titulo1{
+        font-size: 40px;
+        margin-right: 50px;
+    }
+    #sect2-titulo2{
+        font-size: 40px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+    #sect2-foto1{
+        position: relative;
+        left: 530px;
+        width: 400px;
+    }
+    #sect2-texto1{
+
+        width: 350px;
+        margin-top: 30px;
+    }
+    #sect3{
+        
+        width: 1px;
+    }
+    #sect3-1{
+
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        margin-left: 350px;
+        width: 450px;
+    }
+    #imagen-sect3-1{
+
+        width: 450px;
+        height: 300px;
+    }
+    #imagen-sect3-2{
+
+        width: 120px;
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+    #derecha-sect3{
+
+        margin-top: 260px;
+        margin-right: 1px;
+    }
+    #texto-sect3{
+        width: 300px;
+    }
+    #foto-sect4{
+        width: 300px;
+    }
+    #texto-sect4{
+
+        width: 400px;
+    }
+    #titulo-sect6-1{
+        font-size: 40px;
+    }
+    #titulo-sect6-2{
+        font-size: 40px;
+    }
+    #texto-sect6{
+
+        width: 300px;
+        margin-top: 20px;
+    }
+    #foto-sect6{
+        width: 200px;
+        position: relative;
+        left: 1px;
+        top: 40px;
+    }
+    .izquierdo-sect7{
+
+        position: relative;
+        right:100px ;
+        top: 200px;
+       width: 455px;
+    }
+
+    input{
+
+        width: 150px;
+    }
+   
+    #email{
+        width: 354px;
+    }
+    #contra{
+        width: 354px;
+    }
+    textarea{
+
+        width: 354px;
+    }
+
+    #sect7{
+
+        width: 300px;
+    }
+
+    #boxes-sect7{
+
+        width: 400px;;
+    }
+    #texto-box-sect7{
+
+        width: 200px;
+    }
+    .derecho-sect7{
+        height: 200px;
+        margin-top: 350px;
+        margin-left: 1px;
+    }
+    #box-sect7{
+
+        width: 455px;
+    }
+    #texto-box-sect7{
+        margin-left: 70px;
+        width: 300px;
+        text-align: center;
+        
+    }
+    #titulo-derecho-sect7-1{
+        font-size: 40px; 
+        
+        
+    }
+    #titulo-derecho-sect7-2{
+        font-size: 40px; 
+        margin-bottom: 100px;
+        margin-right: 70px;
+        
+        
+    }
+    #texto-sect7{
+
+        width: 350px;
+    }
+
+    #texto-sect8{
+
+        width: 380px;
+    }
+    iframe{
+
+        width: 320px;
+    }
+}
